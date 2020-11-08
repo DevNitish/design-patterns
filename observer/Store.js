@@ -1,3 +1,4 @@
+//Observable object
 class Store {
 
     constructor(name) {

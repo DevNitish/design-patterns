@@ -11,8 +11,8 @@ class Iterator {
     }
 
     last() {
-       var [last] = [...this.items].reverse();
-       return last;
+        var [last] = [...this.items].reverse();
+        return last;
     }
 
     hasNext() {
@@ -25,7 +25,7 @@ class Iterator {
 
     next() {
         if (this.hasNext()) {
-           this.index += 1;
+            this.index += 1;
         }
         return this.current();
     }

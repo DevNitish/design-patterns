@@ -1,5 +1,5 @@
 var Logger = require('./Logger');
-
+//Chain on .getInstance();
 var logger = new Logger();
 
 class Store {
@@ -9,7 +9,6 @@ class Store {
         this.inventory = inventory;
         logger.log(`New Store: ${name} has ${inventory.length} items in stock.`);
     }
-
 }
 
 module.exports = Store;

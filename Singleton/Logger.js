@@ -16,5 +16,19 @@ class Logger {
 
 }
 
+//Define Singleton class
+// class Singleton{
+//     constructor(){
+//         if(!Singleton.instance){
+//             Singleton.instance = new Logger();
+//         }
+//     }
 
+//     getInstance(){
+//         return Singleton.instance;
+//     }
+// }
+
+
+// export Singleton
 module.exports = Logger;

@@ -1,7 +1,7 @@
 var Logger = require('./Logger');
 var Shopper = require('./Shopper');
 var Store = require('./Store');
-
+//Chain on .getInstance();
 var logger = new Logger();
 
 logger.log('starting app...');

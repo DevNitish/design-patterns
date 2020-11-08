@@ -1,10 +1,10 @@
 var Person = require('./Person')
 
 // Employees
-var sue = new Person('Sue', true, true, 60);
-var bill = new Person('Bill', true, false, 20);
-var phil = new Person('Phil', true, false);
+var nitish = new Person('Nitish', true, true, 60);
+var harry = new Person('Harry', true, false, 20);
+var sugam = new Person('Sugam', true, false);
 
 // Shoppers
-var charles = new Person('Charles', false, false, 0, 500, ['jeans', 'sunglasses']);
-var tabbitha = new Person('Tabbitha', false, false, 0, 1000);
+var  rahul = new Person('Rahul', false, false, 0, 500, ['jeans', 'sunglasses']);
+var nishant = new Person('Nishant', false, false, 0, 1000);

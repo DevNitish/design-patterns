@@ -1,3 +1,4 @@
+//Observer
 class Shopper {
 
     constructor(name) {

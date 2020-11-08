@@ -1,5 +1,5 @@
 var Logger = require('./Logger');
-
+//Chain on .getInstance();
 var logger = new Logger();
 
 class Shopper {

@@ -1,3 +1,4 @@
+//Observer
 class Mall {
 
     constructor() {

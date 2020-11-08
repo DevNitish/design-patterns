@@ -1,24 +1,15 @@
-var logger = require('./Logger');
-var Shopper = require('./Shopper');
-var Store = require('./Store');
+const Employee = require('./Employee');
+const Shopper = require('./Shopper');
 
-logger.log('starting app...');
+// var userFactory = require('./userFactory');
 
-var alex = new Shopper('alex', 500)
-var ski_shop = new Store('Steep and Deep Supplies', [
-    {
-        item: 'Downhill Skis',
-        qty: 5,
-        price: 750
-    },
-    {
-        item: 'Knit Hat',
-        qty: 20,
-        price: 5
-    }
-])
+//new Employeechanges to userFactory
+var harry = new Employee('Harry Potter', 100, 'employee', 'This and That',"PM Certi");
+//new Shopper changes to userFactory
+var nitish = new Shopper('Nitish Kumar', 100);
 
-logger.log('finished config...');
 
-console.log(`${logger.count} logs total`);
-logger.logs.map(log => console.log(`   ${log.message}`));
+// harry.payDay(100);
+
+console.log( nitish.toString() );
+console.log( harry.toString() );
